@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Boğaziçi Blitz Blog',
   author: 'Umut Gür',
   headerTitle: 'BOĞAZİÇİ BLITZ',
-  description: 'Boğaziçi University Ice Hockey Team',
+  description: 'Boğaziçi Üniversitesi Buz Hokeyi Takimi',
   language: 'tr-tr',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
