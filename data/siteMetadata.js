@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Boğaziçi Blitz Blog',
   author: 'Umut Gür',
   headerTitle: 'BOĞAZİÇİ BLITZ',
-  description: 'Boğaziçi Üniversitesi Buz Hokeyi Takimi',
+  description: 'Boğaziçi Üniversitesi Buz Hokeyi Takımı',
   language: 'tr-tr',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -36,11 +36,11 @@ const siteMetadata = {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
   },
-  newsletter: {
+//  newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
     provider: 'buttondown',
-  },
+//  },
   comments: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
@@ -68,14 +68,15 @@ const siteMetadata = {
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
       // This corresponds to the `data-lang="en"` in giscus's configurations
-      lang: 'en',
+      lang: 'tr',
     },
   },
-  search: {
-    provider: 'kbar', // kbar or algolia
-    kbarConfig: {
-      searchDocumentsPath: 'search.json', // path to load documents to search
-    },
+
+//  search: {
+//    provider: 'kbar', // kbar or algolia
+//    kbarConfig: {
+//      searchDocumentsPath: 'search.json', // path to load documents to search
+//    },
     // provider: 'algolia',
     // algoliaConfig: {
     //   // The application ID provided by Algolia
@@ -84,7 +85,7 @@ const siteMetadata = {
     //   apiKey: '599cec31baffa4868cae4e79f180729b',
     //   indexName: 'docsearch',
     // },
-  },
+//  },
 }
 
 module.exports = siteMetadata

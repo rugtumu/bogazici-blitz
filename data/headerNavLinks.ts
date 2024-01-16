@@ -3,7 +3,7 @@ const headerNavLinks = [
   { href: '/blog', title: 'Ana Sayfa' },
   { href: '/tags', title: 'Takvim' },
   { href: '/projects', title: 'Takım' },
-  { href: '/about', title: 'Hakkında' },
+  { href: '/hakkinda', title: 'Hakkında' },
 ]
 
 export default headerNavLinks
