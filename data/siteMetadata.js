@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'Boğaziçi Blitz Blog',
-  author: 'Umut Gür',
-  headerTitle: 'BOĞAZİÇİ BLITZ',
+  author: 'rugtumu',
+  headerTitle: 'BOĞAZİÇİ BLİTZ',
   description: 'Boğaziçi Üniversitesi Buz Hokeyi Takımı',
   language: 'tr-tr',
   theme: 'system', // system, dark or light

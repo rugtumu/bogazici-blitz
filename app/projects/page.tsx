@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
+        <div className="space-y-2 pb-2 pt-6 md:space-y-4">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Takım
           </h1>
@@ -23,8 +23,8 @@ export default function Projects() {
                 key={d.title}
                 title={d.title}
                 description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
+                //imgSrc={d.imgSrc}
+                //href={d.href}
               />
             ))}
           </div>
@@ -33,3 +33,39 @@ export default function Projects() {
     </>
   )
 }
+
+
+/*
+import teamRosterData from '@/data/teamRosterData' // Updated data file
+import PlayerCard from '@/components/PlayerCard' // Updated Card component
+import { genPageMetadata } from 'app/seo'
+
+export const metadata = genPageMetadata({ title: 'Takım' })
+
+export default function Team() {
+  return (
+    <>
+      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Takım
+          </h1>
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+            Üniversite Takım Kadromuz
+          </p>
+        </div>
+        <div className="container py-12">
+          <div className="-m-4 flex flex-wrap">
+            {teamRosterData.map((player) => (
+              <PlayerCard
+                key={player.name}
+                name={player.name}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+*/
