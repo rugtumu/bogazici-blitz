@@ -45,28 +45,35 @@ const projectsData = [
   },
 
   {
+    title: 'Atakan Çavuşoğlu',
+    //description: ``,
+    //imgSrc: '',
+    //href: '',
+  },
+  
+  {
+    title: 'Sude Soral',
+    //description: ``,
+    //imgSrc: '',
+    //href: '',
+  }, 
+  
+  {
     title: 'Özgür Öcalan',
+    description: ``,
+    //imgSrc: '',
+    //href: '',
+  },
+
+  {
+    title: 'Sıla Tanrıverdioğlu',
     //description: ``,
     //imgSrc: '',
     //href: '',
   },
   
   {
-    title: 'Ahmet Bera Bekdemirli',
-    //description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-  
-  {
-    title: '',
-    //description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-  
-  {
-    title: '',
+    title: 'A. Bera Bekdemirli',
     description: ``,
     //imgSrc: '',
     //href: '',
@@ -78,16 +85,37 @@ const projectsData = [
     //imgSrc: '',
     //href: '',
   },
-  
+
+    {
+    title: 'Batın Has',
+    description: ``,
+    //imgSrc: '',
+    //href: '',
+  },
+
   {
     title: '',
     description: ``,
     //imgSrc: '',
     //href: '',
   },
+    
+  {
+    title: 'Fırat Güler',
+    description: ``,
+    //imgSrc: '',
+    //href: '',
+  },
   
   {
-    title: '',
+    title: 'Çağatay Hancı',
+    description: ``,
+    //imgSrc: '',
+    //href: '',
+  },
+  
+  {
+    title: 'Hüseyin Gültekin',
     description: ``,
     //imgSrc: '',
     //href: '',
