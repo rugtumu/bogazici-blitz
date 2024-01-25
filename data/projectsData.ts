@@ -80,7 +80,7 @@ const projectsData = [
   },
   
   {
-    title: '',
+    title: 'Çağatay Hancı',
     description: ``,
     //imgSrc: '',
     //href: '',
@@ -94,21 +94,21 @@ const projectsData = [
   },
 
   {
-    title: '',
+    title: 'Ece Akın',
     description: ``,
     //imgSrc: '',
     //href: '',
   },
     
   {
-    title: 'Fırat Güler',
+    title: 'Süheyl Öztürk',
     description: ``,
     //imgSrc: '',
     //href: '',
   },
   
   {
-    title: 'Çağatay Hancı',
+    title: 'Yaren Şeyda Acar',
     description: ``,
     //imgSrc: '',
     //href: '',
@@ -122,7 +122,28 @@ const projectsData = [
   },
   
   {
-    title: '',
+    title: 'Buse Karaşahin',
+    description: ``,
+    //imgSrc: '',
+    //href: '',
+  },
+
+  {
+    title: 'Sude Ezgi Abalı',
+    description: ``,
+    //imgSrc: '',
+    //href: '',
+  },
+  
+  {
+    title: 'Metehan Gül',
+    description: ``,
+    //imgSrc: '',
+    //href: '',
+  },
+  
+  {
+    title: 'İrem Alp',
     description: ``,
     //imgSrc: '',
     //href: '',
@@ -169,6 +190,7 @@ const projectsData = [
     //imgSrc: '',
     //href: '',
   },
+  
   
 ]
 
