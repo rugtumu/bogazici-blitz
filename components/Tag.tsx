@@ -1,4 +1,4 @@
-import Link from 'next/link'
+/*import Link from 'next/link'
 import { slug } from 'github-slugger'
 interface Props {
   text: string
@@ -16,3 +16,4 @@ const Tag = ({ text }: Props) => {
 }
 
 export default Tag
+*/

@@ -40,6 +40,6 @@
     ".contentlayer/generated",
     ".contentlayer/generated/**/*.json",
     ".next/types/**/*.ts"
-  ],
+, "data/takim/umutgur.mdx"  ],
   "exclude": ["node_modules"]
 }

@@ -5,155 +5,155 @@ const projectsData = [
   {
     title: 'Ahmet Dilli',
     description: `Koç`,
-    //imgSrc: '/static/images/time-machine.jpg',
+    imgSrc: '/static/images/takim.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Bora Altun',
     description: `Kaptan`,
-    //imgSrc: '/static/images/google.png',
+    imgSrc: '/static/images/takim-bora-esgal.jpg',
     //href: 'https://www.google.com',
   },
 
   {
     title: 'Mete Üçyiğitler',
     description: `İkinci Kaptan`,
-    //imgSrc: '/static/images/time-machine.jpg',
+    imgSrc: '/static/images/takim-mete-esgal.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Sueda Buyuran',
     description: `Kadın Takımı Kaptanı`,
-    //imgSrc: '/static/images/time-machine.jpg',
+    imgSrc: '/static/images/takim-suedavesika.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Umut Gür',
     description: `Yönetim`,
-    //imgSrc: '/static/images/time-machine.jpg',
+    imgSrc: '/static/images/takim-umut-vesika.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Hüseyin Dönmez',
     description: `Yönetim`,
-    //imgSrc: '/static/images/time-machine.jpg',
+    imgSrc: '/static/images/takim-donmezvesika.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Atakan Çavuşoğlu',
     //description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
   
   {
     title: 'Sude Soral',
     //description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   }, 
   
   {
     title: 'Özgür Öcalan',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
 
   {
     title: 'Sıla Tanrıverdioğlu',
     //description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
   
   {
     title: 'A. Bera Bekdemirli',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
   
   {
     title: 'Çağatay Hancı',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
 
     {
     title: 'Batın Has',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
 
   {
     title: 'Ece Akın',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
     
   {
     title: 'Süheyl Öztürk',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
   
   {
     title: 'Yaren Şeyda Acar',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
   
   {
     title: 'Hüseyin Gültekin',
     description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-  
-  {
-    title: 'Buse Karaşahin',
-    description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-
-  {
-    title: 'Sude Ezgi Abalı',
-    description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-  
-  {
-    title: 'Metehan Gül',
-    description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
   
   {
     title: 'İrem Alp',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
+    //href: '',
+  },
+
+  {
+    title: 'Sude Ezgi Abalı',
+    description: ``,
+    imgSrc: '/static/images/takim.jpg',
+    //href: '',
+  },
+  
+  {
+    title: 'Metehan Gül',
+    description: ``,
+    imgSrc: '/static/images/takim.jpg',
+    //href: '',
+  },
+  
+  {
+    title: 'Zeynep Gamze Yılmaz',
+    description: ``,
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
   
   {
     title: '',
     description: ``,
-    //imgSrc: '',
-    //href: '',
+    //imgSrc: '/static/images/takim-.jpg',
+    //href: '/projects/umutgur',
   },
   
   {
@@ -195,29 +195,3 @@ const projectsData = [
 ]
 
 export default projectsData
-
-/*
-const teamRosterData = [
-  {
-    name: 'Bora Altun',
-    //imgSrc: '/path/to/image.jpg', // If you want to include images
-  },
-  
-  {
-    name: 'Mete Ucyigitler',
-    //imgSrc: '/path/to/image.jpg', // If you want to include images
-  },
-
-  {
-    name: 'Ahmet Tugrul Dilli',
-    //imgSrc: '/path/to/image.jpg', // If you want to include images
-  },
-  
-  {
-    name: 'Omer Filiz',
-    //imgSrc: '/path/to/image.jpg', // If you want to include images
-  },
-]
-
-export default teamRosterData
-*/

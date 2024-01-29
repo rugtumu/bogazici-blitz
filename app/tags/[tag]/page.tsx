@@ -1,4 +1,4 @@
-import { slug } from 'github-slugger'
+/*import { slug } from 'github-slugger'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer'
 import siteMetadata from '@/data/siteMetadata'
 import ListLayout from '@/layouts/ListLayoutWithTags'
@@ -39,3 +39,4 @@ export default function TagPage({ params }: { params: { tag: string } }) {
   )
   return <ListLayout posts={filteredPosts} title={title} />
 }
+*/

@@ -1,5 +1,5 @@
 import Link from '@/components/Link'
-import Tag from '@/components/Tag'
+//import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
@@ -17,11 +17,17 @@ export default function Home({ posts }) {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
+          {/* METE */}
+          <img
+            src="/static/images/takim-mete-esgal.jpg" // Change this to the path of your image
+            alt="What is this"
+            className="mx-auto w-half object-cover" // Tailwind CSS classes for styling
+          />
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-500">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
-            const { slug, date, title, summary, tags } = post
+            const { slug, date, title, summary} = post
             return (
               <li key={slug} className="py-12">
                 <article>
@@ -42,12 +48,7 @@ export default function Home({ posts }) {
                             >
                               {title}
                             </Link>
-                          </h2>
-                          <div className="flex flex-wrap">
-                            {tags.map((tag) => (
-                              <Tag key={tag} text={tag} />
-                            ))}
-                          </div>
+                          </h2>                          
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                           {summary}
@@ -57,9 +58,9 @@ export default function Home({ posts }) {
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read more: "${title}"`}
+                          aria-label={`Devamını Oku: "${title}"`}
                         >
-                          Read more &rarr;
+                          Devamını Oku &rarr;
                         </Link>
                       </div>
                     </div>
