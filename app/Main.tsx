@@ -3,6 +3,7 @@ import Link from '@/components/Link'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
+import Image from 'next/image'
 
 const MAX_DISPLAY = 5
 
@@ -18,10 +19,13 @@ export default function Home({ posts }) {
             {siteMetadata.description}
           </p>
           {/* Main Foto */}
-          <img
-            src="/static/images/takim.jpg" // Change this to the path of your image
+          <Image
+            src="/static/images/takim.jpg" // The path of your image
             alt="What is this"
-            className="w-half mx-auto object-cover" // Tailwind CSS classes for styling
+            width={640} // Specify the width
+            height={360} // Specify the height
+            layout="responsive" // This is optional; it makes the image adjust to the parent's width
+            className="mx-auto" // Note: Tailwind CSS classes may not work as expected with Next.js Image
           />
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-500">

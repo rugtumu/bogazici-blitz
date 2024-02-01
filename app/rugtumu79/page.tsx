@@ -1,10 +1,11 @@
 import Link from '@/components/Link'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
+import Image from 'next/image'
 
 const MAX_DISPLAY = 5
 
-export default function Home({}) {
+export default function Home() {
   return (
     <>
       <div className="dark:divide-gray-1000 divide-y divide-gray-200">
@@ -18,10 +19,10 @@ export default function Home({}) {
               Doğmuş olmak, fırlatılmış olmak değil, eyleme geçebilmektir." (Olma Sanatı)
             </h2>
 
-            <h3>
+            <h2>
               "İtaat ettiğinin bile farkında değilken kim itaatsizlik edebilir?" (İtaatsizlik
               Üzerine, Sf. 26)
-            </h3>
+            </h2>
 
             <h2>
               "... itaatsizlik, mantığın ve iradenin olumlanması eylemidir. Bu aslında, bir şeye
@@ -68,10 +69,13 @@ export default function Home({}) {
               değildir."
             </h2>
 
-            <img
-              src="/static/images/closeness.jpg" // Change this to the path of your image
-              alt="What is this"
-              className="mx-auto w-1/2 object-cover" // Tailwind CSS classes for styling
+            <Image
+            src="/static/images/closeness.jpg" // Change this to the path of your image
+            alt="What is this"
+            width={500} // You need to specify the width
+            height={300} // And the height for the image
+            className="mx-auto w-1/2 object-cover" // Note: className might not work as expected with Next.js Image
+            layout="responsive" // This is optional, it makes the image responsive
             />
           </div>
         </div>
