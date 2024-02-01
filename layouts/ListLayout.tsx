@@ -129,7 +129,7 @@ export default function ListLayout({
                         <Link href={`/${path}`} className="text-gray-900 dark:text-gray-100">
                           {title}
                         </Link>
-                      </h3>                      
+                      </h3>
                     </div>
                     <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                       {summary}

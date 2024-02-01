@@ -9,7 +9,7 @@ const MAX_DISPLAY = 5
 export default function Home({ posts }) {
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-1000">
+      <div className="dark:divide-gray-1000 divide-y divide-gray-200">
         <div className="space-y-2 pb-4 pt-6 md:space-y-8">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Boğaziçi Blitz
@@ -21,13 +21,13 @@ export default function Home({ posts }) {
           <img
             src="/static/images/takim.jpg" // Change this to the path of your image
             alt="What is this"
-            className="mx-auto w-half object-cover" // Tailwind CSS classes for styling
+            className="w-half mx-auto object-cover" // Tailwind CSS classes for styling
           />
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-500">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
-            const { slug, date, title, summary} = post
+            const { slug, date, title, summary } = post
             return (
               <li key={slug} className="py-12">
                 <article>
@@ -48,7 +48,7 @@ export default function Home({ posts }) {
                             >
                               {title}
                             </Link>
-                          </h2>                          
+                          </h2>
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                           {summary}

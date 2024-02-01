@@ -11,13 +11,13 @@ export default function Projects() {
         <div className="space-y-2 pb-2 pt-6 md:space-y-8">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Takım
-          </h1>          
+          </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Üniversite Takım Kadromuz
           </p>
         </div>
         <div className="container py-12">
-          <div className="-m-4 flex flex-wrap justify-center items-center -m-4">
+          <div className="-m-4 -m-4 flex flex-wrap items-center justify-center">
             {projectsData.map((d) => (
               <Card
                 key={d.title}
@@ -33,7 +33,6 @@ export default function Projects() {
     </>
   )
 }
-
 
 /*
 import teamRosterData from '@/data/teamRosterData' // Updated data file
