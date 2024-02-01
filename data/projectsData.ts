@@ -33,7 +33,7 @@ const projectsData = [
   {
     title: 'Umut Gür',
     description: `Yönetim`,
-    imgSrc: '/static/images/takim.jpg',
+    imgSrc: '/static/images/takim-umutyeni.jpg',
     //href: '/blog/the-time-machine',
   },
 

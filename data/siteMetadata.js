@@ -1,4 +1,4 @@
-/** @type {import("pliny/config").PlinyConfig } */
+/* @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'Boğaziçi Blitz',
   author: 'rugtumu',
@@ -14,7 +14,7 @@ const siteMetadata = {
 //  email: 'address@yoursite.com',  
 //  twitter: 'https://twitter.com/Twitter',
 //  facebook: 'https://facebook.com',
-  instagram: 'https://www.instagram.com/bogazicibuz/',
+//  instagram: 'https://www.instagram.com/bogazicibuz/',
   
   locale: 'tr-TR',
   analytics: {

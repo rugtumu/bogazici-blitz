@@ -1,4 +1,4 @@
-'use client'
+/*'use client'
 
 import { Comments as CommentsComponent } from 'pliny/comments'
 import { useState } from 'react'
@@ -15,3 +15,4 @@ export default function Comments({ slug }: { slug: string }) {
     </>
   )
 }
+*/
