@@ -68,15 +68,6 @@ export default function Home() {
               dünyanın semantik açıdan kısırlaşmasına yol açar. Mekan ve zaman artık çok da anlamlı
               değildir."
             </h2>
-
-            <Image
-            src="/static/images/closeness.jpg" // Change this to the path of your image
-            alt="What is this"
-            width={500} // You need to specify the width
-            height={300} // And the height for the image
-            className="mx-auto w-1/2 object-cover" // Note: className might not work as expected with Next.js Image
-            layout="responsive" // This is optional, it makes the image responsive
-            />
           </div>
         </div>
       </div>
