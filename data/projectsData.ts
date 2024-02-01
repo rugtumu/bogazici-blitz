@@ -5,42 +5,42 @@ const projectsData = [
   {
     title: 'Ahmet Dilli',
     description: `Koç`,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '/blog/the-time-machine',
+    imgSrc: '/static/images/takim-ahmet.jpg',
+    href: '',
   },
 
   {
     title: 'Bora Altun',
     description: `Kaptan`,
-    imgSrc: '/static/images/takim-bora-esgal.jpg',
-    //href: 'https://www.google.com',
+    imgSrc: '/static/images/takim.jpg',
+    //href: 'takim/boraaltun',
   },
 
   {
     title: 'Mete Üçyiğitler',
     description: `İkinci Kaptan`,
-    imgSrc: '/static/images/takim-mete-esgal.jpg',
+    imgSrc: '/static/images/takim.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Sueda Buyuran',
     description: `Kadın Takımı Kaptanı`,
-    imgSrc: '/static/images/takim-suedavesika.jpg',
+    imgSrc: '/static/images/takim.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Umut Gür',
     description: `Yönetim`,
-    imgSrc: '/static/images/takim-umut-vesika.jpg',
+    imgSrc: '/static/images/takim.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Hüseyin Dönmez',
     description: `Yönetim`,
-    imgSrc: '/static/images/takim-donmezvesika.jpg',
+    imgSrc: '/static/images/takim.jpg',
     //href: '/blog/the-time-machine',
   },
 
@@ -87,14 +87,14 @@ const projectsData = [
   },
 
     {
-    title: 'Batın Has',
+    title: 'Hüseyin Gültekin',
     description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
 
   {
-    title: 'Ece Akın',
+    title: 'Yaren Şeyda Acar',
     description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
@@ -108,14 +108,14 @@ const projectsData = [
   },
   
   {
-    title: 'Yaren Şeyda Acar',
+    title: 'Ece Akın',
     description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
   
   {
-    title: 'Hüseyin Gültekin',
+    title: 'Batın Has',
     description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
@@ -136,13 +136,6 @@ const projectsData = [
   },
   
   {
-    title: 'Metehan Gül',
-    description: ``,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '',
-  },
-  
-  {
     title: 'Zeynep Gamze Yılmaz',
     description: ``,
     imgSrc: '/static/images/takim.jpg',
@@ -150,47 +143,18 @@ const projectsData = [
   },
   
   {
-    title: '',
+    title: 'Mihriban Yücesoy',
     description: ``,
-    //imgSrc: '/static/images/takim-.jpg',
+    imgSrc: '/static/images/takim.jpg',
     //href: '/projects/umutgur',
   },
-  
+
   {
-    title: '',
+    title: 'Metehan Gül',
     description: ``,
-    //imgSrc: '',
+    imgSrc: '/static/images/takim.jpg',
     //href: '',
-  },
-  
-  {
-    title: '',
-    description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-  
-  {
-    title: '',
-    description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-  
-  {
-    title: '',
-    description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-  
-  {
-    title: '',
-    description: ``,
-    //imgSrc: '',
-    //href: '',
-  },
-  
+  }
   
 ]
 

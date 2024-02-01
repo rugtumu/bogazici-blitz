@@ -17,9 +17,9 @@ export default function Home({ posts }) {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
-          {/* METE */}
+          {/* Main Foto */}
           <img
-            src="/static/images/takim-mete-esgal.jpg" // Change this to the path of your image
+            src="/static/images/takim.jpg" // Change this to the path of your image
             alt="What is this"
             className="mx-auto w-half object-cover" // Tailwind CSS classes for styling
           />

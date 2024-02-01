@@ -6,7 +6,7 @@ import { formatDate } from 'pliny/utils/formatDate'
 import { CoreContent } from 'pliny/utils/contentlayer'
 import type { Blog } from 'contentlayer/generated'
 import Link from '@/components/Link'
-import Tag from '@/components/Tag'
+//import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 
 interface PaginationProps {
@@ -129,10 +129,7 @@ export default function ListLayout({
                         <Link href={`/${path}`} className="text-gray-900 dark:text-gray-100">
                           {title}
                         </Link>
-                      </h3>
-                      <div className="flex flex-wrap">
-                        {tags?.map((tag) => <Tag key={tag} text={tag} />)}
-                      </div>
+                      </h3>                      
                     </div>
                     <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                       {summary}
