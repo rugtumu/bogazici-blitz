@@ -19,7 +19,7 @@ const projectsData = [
   {
     title: 'Mete Üçyiğitler',
     description: `İkinci Kaptan`,
-    imgSrc: '/static/images/takim.jpg',
+    imgSrc: '/static/images/takim-mete1.jpg',
     //href: '/blog/the-time-machine',
   },
 
@@ -73,7 +73,7 @@ const projectsData = [
   },
   
   {
-    title: 'A. Bera Bekdemirli',
+    title: 'A. Bera Bekdemir',
     description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
