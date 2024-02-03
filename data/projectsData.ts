@@ -17,7 +17,7 @@ const projectsData = [
   },
 
   {
-    title: 'Mete Üçyiğitler',
+    title: 'Sıtkı Mete Üçyiğitler',
     description: `İkinci Kaptan`,
     imgSrc: '/static/images/takim-mete1.jpg',
     //href: '/blog/the-time-machine',
