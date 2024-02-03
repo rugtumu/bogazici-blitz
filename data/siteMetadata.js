@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: 'https://bogaziciblitz.com',
 //  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/favicons/android-chrome-512x512.png',
+  socialBanner: 'static/favicons/BlitzLogo-Copy.png',
 //  mastodon: 'https://mastodon.social/@mastodonuser',
 //  email: 'address@yoursite.com',  
 //  twitter: 'https://twitter.com/Twitter',
