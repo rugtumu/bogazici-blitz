@@ -8,7 +8,7 @@ import Image from 'next/image'
 const MAX_DISPLAY = 5
 
 export default function Home({ posts }) {
-  const videoSrc = '/static/videos/blitz.mp4';
+  const videoSrc = '/static/videos/blitz.mp4'
   return (
     <>
       <div className="dark:divide-gray-1000 divide-y divide-gray-200">
@@ -20,14 +20,9 @@ export default function Home({ posts }) {
             {siteMetadata.description}
           </p>
           {/* Video Implementation */}
-          <video 
-            width="2560"
-            height="1440"
-            autoPlay
-            loop
-            controls className="mx-auto"
-          >
+          <video width="2560" height="1440" autoPlay loop className="mx-auto">
             <source src={videoSrc} type="video/mp4" />
+            <track src="/static/vtt/blitz.vtt" kind="captions" label="English" default />
             Your browser does not support the video tag.
           </video>
           {/* Main Foto */}
