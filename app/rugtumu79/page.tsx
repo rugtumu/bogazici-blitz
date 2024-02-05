@@ -15,6 +15,12 @@ export default function Home() {
           </h1>
           <div className="space-y-2 pb-4 pt-6 md:space-y-8">
             <h2>
+              "Hangi hakikat olursa olsun, ne denli yıkıcı olursa olsun katlanabilir, yeter ki her
+              şeyin yerini tutsun, yeter ki yerini aldığı umut kadar yaşamsallığı gözden kaçmasın."
+              E. M. Cioran, Doğmuş Olmanın Sakıncası Üzerine, Sf. 10
+            </h2>
+
+            <h2>
               "Eyleme geçme kararlılığı olmayınca insan körelerek bir homo laborans'a dönüşür.
               Doğmuş olmak, fırlatılmış olmak değil, eyleme geçebilmektir." (Olma Sanatı)
             </h2>
