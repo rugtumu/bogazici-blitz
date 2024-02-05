@@ -23,7 +23,7 @@ export default function Home({ posts }) {
           <video width="640" height="360" autoPlay loop muted className="mx-auto">
             <source src={videoSrc} type="video/mp4" />
             <track src="/static/vtt/blitz.vtt" kind="captions" label="English" default />
-          </video>*/}        
+          </video>*/}
           {/* Main Foto */}
           <Image
             src="/static/images/blitz-w-koc.jpg" // The path of your image
