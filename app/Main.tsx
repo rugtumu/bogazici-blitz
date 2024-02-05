@@ -26,8 +26,8 @@ export default function Home({ posts }) {
           </video>*/}
           {/* Main Foto */}
           <Image
-            src="/static/images/blitz-w-koc.jpg" // The path of your image
-            alt="Blitz with Koc University"
+            src="/static/images/takim-bogazicibuz.jpg" // The path of your image
+            alt="Bogazici Buz"
             width={640} // Specify the width
             height={360} // Specify the height
             layout="responsive" // This is optional; it makes the image adjust to the parent's width
