@@ -19,16 +19,15 @@ export default function Home({ posts }) {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
-          {/* Video Implementation */}
-          <video width="2560" height="1440" autoPlay loop className="mx-auto">
+          {/* Video Implementation 
+          <video width="640" height="360" autoPlay loop muted className="mx-auto">
             <source src={videoSrc} type="video/mp4" />
             <track src="/static/vtt/blitz.vtt" kind="captions" label="English" default />
-            Your browser does not support the video tag.
-          </video>
+          </video>*/}        
           {/* Main Foto */}
           <Image
-            src="/static/images/takim.jpg" // The path of your image
-            alt="What is this"
+            src="/static/images/blitz-w-koc.jpg" // The path of your image
+            alt="Blitz with Koc University"
             width={640} // Specify the width
             height={360} // Specify the height
             layout="responsive" // This is optional; it makes the image adjust to the parent's width

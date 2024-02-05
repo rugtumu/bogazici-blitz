@@ -11,6 +11,8 @@ const Header = () => {
     <header className="flex items-center justify-between py-10">
       <div>
         <div className="flex items-center justify-between">
+          {/* Logo added here 
+        <Logo className="mr-3 h-10" aria-label="Logo" />*/}
           {typeof siteMetadata.headerTitle === 'string' ? (
             <div className="hidden h-6 text-2xl font-semibold sm:block">
               {siteMetadata.headerTitle}
