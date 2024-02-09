@@ -19,11 +19,14 @@ export default function Home({ posts }) {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
-          {/* Video Implementation 
+          {/* Video Implementation
           <video width="640" height="360" autoPlay loop muted className="mx-auto">
             <source src={videoSrc} type="video/mp4" />
             <track src="/static/vtt/blitz.vtt" kind="captions" label="English" default />
           </video>*/}
+          {/*<iframe width="560" height="315"
+            src="https://www.youtube.com/embed/rroHyCnHvpg?si=KtMaa4AAIRu4tpYa"          
+          ></iframe>*/}
           {/* Main Foto */}
           <Image
             src="/static/images/takim-bogazicibuz.jpg" // The path of your image
