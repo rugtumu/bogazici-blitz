@@ -15,11 +15,17 @@ export default function Home() {
             Deneme 1 2
           </h1>
           <div className="space-y-2 pb-4 pt-6 md:space-y-8">
-            {/* Video Implementation*/}
-            <video width="640" height="360" autoPlay loop muted className="mx-auto">
+            {/* Video Implementation
+            <video width="640" height="360" className="mx-auto">
               <source src={videoSrc} type="video/mp4" />
               <track src="/static/vtt/blitz.vtt" kind="captions" label="English" default />
             </video>
+            <video controls>
+              <source
+                src="https://github-production-user-asset-6210df.s3.amazonaws.com/28362229/258559849-2124c81f-b99d-4431-839c-347e01a2616c.webm"
+                type="video/webm"
+              />
+            </video>*/}
             <h2>
               "Hangi hakikat olursa olsun, ne denli yıkıcı olursa olsun katlanabilir, yeter ki her
               şeyin yerini tutsun, yeter ki yerini aldığı umut kadar yaşamsallığı gözden kaçmasın."

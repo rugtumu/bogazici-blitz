@@ -54,19 +54,3 @@ const Card = ({ title, description, imgSrc, href }) => (
 )
 
 export default Card
-
-/*
-const PlayerCard = ({ name}) => {
-  return (
-    <a className="m-4">
-      <div className="border border-gray-200 dark:border-gray-800 shadow hover:shadow-lg">
-        <div className="p-4">
-          <h3 className="text-xl font-bold">{name}</h3>
-        </div>
-      </div>
-    </a>
-  )
-}
-
-export default PlayerCard
-*/

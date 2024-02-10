@@ -12,7 +12,7 @@ const projectsData = [
   {
     title: 'Bora Altun',
     description: `Kaptan`,
-    imgSrc: '/static/images/takim.jpg',
+    imgSrc: '/static/images/takim-bora.jpg',
     //href: 'takim/boraaltun',
   },
 
