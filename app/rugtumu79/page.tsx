@@ -29,7 +29,7 @@ export default function Home() {
             <h2>
               "Hangi hakikat olursa olsun, ne denli yıkıcı olursa olsun katlanabilir, yeter ki her
               şeyin yerini tutsun, yeter ki yerini aldığı umut kadar yaşamsallığı gözden kaçmasın."
-              E. M. Cioran, Doğmuş Olmanın Sakıncası Üzerine, Sf. 10
+              (E. M. Cioran, Doğmuş Olmanın Sakıncası Üzerine, Sf. 10)
             </h2>
 
             <h2>
@@ -84,7 +84,23 @@ export default function Home() {
               aralığın tamamen ortadan kaldırılması girişimidir hızlanma. Yolun zengin semantiği
               ortadan kalkar. Yolun bir kokusu yoktur artık. Hatta yol da ortadan kalkar. Hızlanma
               dünyanın semantik açıdan kısırlaşmasına yol açar. Mekan ve zaman artık çok da anlamlı
-              değildir."
+              değildir." (??)
+            </h2>
+
+            <h2>"Her şey herkesleşiyordu. Herkes herşeyleşiyordu." (Ulus Baker)</h2>
+            <Image
+              src="/static/images/closeness.jpg"
+              alt="Closeness"
+              width={640}
+              height={360}
+              layout="responsive"
+              className="mx-auto"
+            />
+
+            <h2>
+              <p>Uzaklardaki bir yıldız gibiyim bazen</p>
+              <p>Parıltımı görmek için kısmak,</p>
+              <p>Sesimi duymak için susmak gerekir</p>
             </h2>
           </div>
         </div>
