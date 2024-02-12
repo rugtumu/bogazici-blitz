@@ -27,7 +27,6 @@ export default function Home() {
               />
             </video>*/}
             <h2>
-              <p>"Child,</p>
               <p>Why did no one ever teach you that you cannot turn people into homes?</p>
               <p></p>
               <p>People are rivers,</p>
