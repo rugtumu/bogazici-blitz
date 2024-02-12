@@ -29,7 +29,7 @@ export default function Home({ posts }) {
           ></iframe>*/}
           {/* Main Foto */}
           <Image
-            src="/static/images/takim-bogazicibuz.jpg" // The path of your image
+            src="/static/images/takim-blitz.jpg" // The path of your image
             alt="Bogazici Buz"
             width={640} // Specify the width
             height={360} // Specify the height
