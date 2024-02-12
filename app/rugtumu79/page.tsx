@@ -27,6 +27,22 @@ export default function Home() {
               />
             </video>*/}
             <h2>
+              <p>"Child,</p>
+              <p>Why did no one ever teach you that you cannot turn people into homes?</p>
+              <p></p>
+              <p>People are rivers,</p>
+              <p>Ever changing,</p>
+              <p>Ever flowing.</p>
+              <p>They will disappear with everything you put inside them."</p>
+              <p>-Nikita Gill</p>
+              <p></p>
+              <p>But, the thing is to flow together!</p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </h2>
+
+            <h2>
               "Hangi hakikat olursa olsun, ne denli yıkıcı olursa olsun katlanabilir, yeter ki her
               şeyin yerini tutsun, yeter ki yerini aldığı umut kadar yaşamsallığı gözden kaçmasın."
               (E. M. Cioran, Doğmuş Olmanın Sakıncası Üzerine, Sf. 10)

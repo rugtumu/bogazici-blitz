@@ -19,21 +19,21 @@ const projectsData = [
   {
     title: 'Sıtkı Mete Üçyiğitler',
     description: `İkinci Kaptan`,
-    imgSrc: '/static/images/takim-mete1.jpg',
+    imgSrc: '/static/images/takim-mete.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Sueda Buyuran',
     description: `Kadın Takımı Kaptanı`,
-    imgSrc: '/static/images/takim.jpg',
+    imgSrc: '/static/images/takim-sueda.jpg',
     //href: '/blog/the-time-machine',
   },
 
   {
     title: 'Umut Gür',
     description: `Yönetim`,
-    imgSrc: '/static/images/takim-umutyeni.jpg',
+    imgSrc: '/static/images/takim-umut.jpg',
     //href: '/blog/the-time-machine',
   },
 
@@ -45,22 +45,36 @@ const projectsData = [
   },
 
   {
+    title: 'Özgür Öcalan',
+    description: ``,
+    imgSrc: '/static/images/takim-ozgur.jpg',
+    //href: '',
+  },
+
+  {
     title: 'Atakan Çavuşoğlu',
     //description: ``,
-    imgSrc: '/static/images/takim.jpg',
+    imgSrc: '/static/images/takim-atakan.jpg',
+    //href: '',
+  },
+
+  {
+    title: 'Batın Has',
+    description: ``,
+    imgSrc: '/static/images/takim-batin.jpg',
+    //href: '',
+  },
+
+  {
+    title: 'A. Bera Bekdemir',
+    description: ``,
+    imgSrc: '/static/images/takim-bera.jpg',
     //href: '',
   },
   
   {
     title: 'Sude Soral',
     //description: ``,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '',
-  }, 
-  
-  {
-    title: 'Özgür Öcalan',
-    description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
@@ -71,14 +85,7 @@ const projectsData = [
     imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
-  
-  {
-    title: 'A. Bera Bekdemir',
-    description: ``,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '',
-  },
-  
+
   {
     title: 'Çağatay Hancı',
     description: ``,
@@ -112,14 +119,7 @@ const projectsData = [
     description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
-  },
-  
-  {
-    title: 'Batın Has',
-    description: ``,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '',
-  },
+  }, 
   
   {
     title: 'İrem Alp',
