@@ -4,7 +4,7 @@ const projectsData = [
 
   {
     title: 'Ahmet Dilli',
-    description: `Koç`,
+    description: `Antrenör`,
     imgSrc: '/static/images/takim-ahmet.jpg',
     href: '',
   },
