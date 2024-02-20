@@ -154,13 +154,6 @@ const projectsData = [
     description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
-  },
-
-  {
-    title: 'Utku Mutlu Türkkan',
-    description: ``,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '',
   }
   
 ]
