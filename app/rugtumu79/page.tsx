@@ -27,24 +27,15 @@ export default function Home() {
               />
             </video>*/}
             <h2>
-              <p>Why did no one ever teach you that you cannot turn people into homes?</p>
-              <p></p>
-              <p>People are rivers,</p>
-              <p>Ever changing,</p>
-              <p>Ever flowing.</p>
-              <p>They will disappear with everything you put inside them."</p>
-              <p>-Nikita Gill</p>
-              <p></p>
-              <p>But, the thing is to flow together!</p>
-              <p></p>
-              <p></p>
-              <p></p>
+              "İnsan özgür olmaya mahkumdur, zorunludur. Zorunludur, çünkü yaratılmamıştır.
+              Özgürdür, çünkü yeryüzüne geldi mi, dünyaya atıldı mı bir kez, artık tüm
+              yaptıklarından sorumludur." (Varoluşçuluk, s. 46, Jean-Paul Sartre)
             </h2>
 
             <h2>
               "Hangi hakikat olursa olsun, ne denli yıkıcı olursa olsun katlanabilir, yeter ki her
               şeyin yerini tutsun, yeter ki yerini aldığı umut kadar yaşamsallığı gözden kaçmasın."
-              (E. M. Cioran, Doğmuş Olmanın Sakıncası Üzerine, Sf. 10)
+              (E. M. Cioran, Doğmuş Olmanın Sakıncası Üzerine, s. 10)
             </h2>
 
             <h2>
@@ -54,7 +45,7 @@ export default function Home() {
 
             <h2>
               "İtaat ettiğinin bile farkında değilken kim itaatsizlik edebilir?" (İtaatsizlik
-              Üzerine, Sf. 26)
+              Üzerine, s. 26)
             </h2>
 
             <h2>
@@ -63,7 +54,7 @@ export default function Home() {
               ve görmediği şeyi söylemeyi reddetme yeteneğine yöneliktir. Bunu yapabilmek için
               saldırgan ya da isyankar olması gerekmez; gözünü açmaya, tamamen uyanık olmaya ve yarı
               uykuda oldukları için yok olma tehlikesiyle karşı karşıya olanların gözünü açma
-              sorumluluğunu taşımaya istekli olması gerekir." (İtaatsizlik Üzerine, Sf. 27)
+              sorumluluğunu taşımaya istekli olması gerekir." (İtaatsizlik Üzerine, s. 27)
             </h2>
 
             <h2>
