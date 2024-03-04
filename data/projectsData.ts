@@ -136,13 +136,6 @@ const projectsData = [
   },
   
   {
-    title: 'Zeynep Gamze Yılmaz',
-    description: ``,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '',
-  },
-  
-  {
     title: 'Mihriban Yücesoy',
     description: ``,
     imgSrc: '/static/images/takim.jpg',
