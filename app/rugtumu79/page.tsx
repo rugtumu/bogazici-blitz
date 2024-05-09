@@ -26,22 +26,6 @@ export default function Home() {
                 type="video/webm"
               />
             </video>*/}
-            <h2>
-              "İnsan özgür olmaya mahkumdur, zorunludur. Zorunludur, çünkü yaratılmamıştır.
-              Özgürdür, çünkü yeryüzüne geldi mi, dünyaya atıldı mı bir kez, artık tüm
-              yaptıklarından sorumludur." (Varoluşçuluk, s. 46, Jean-Paul Sartre)
-            </h2>
-
-            <h2>
-              "Hangi hakikat olursa olsun, ne denli yıkıcı olursa olsun katlanabilir, yeter ki her
-              şeyin yerini tutsun, yeter ki yerini aldığı umut kadar yaşamsallığı gözden kaçmasın."
-              (E. M. Cioran, Doğmuş Olmanın Sakıncası Üzerine, s. 10)
-            </h2>
-
-            <h2>
-              "Eyleme geçme kararlılığı olmayınca insan körelerek bir homo laborans'a dönüşür.
-              Doğmuş olmak, fırlatılmış olmak değil, eyleme geçebilmektir." (Olma Sanatı)
-            </h2>
 
             <h2>
               "İtaat ettiğinin bile farkında değilken kim itaatsizlik edebilir?" (İtaatsizlik
