@@ -78,20 +78,6 @@ export default function Home() {
             </h2>
 
             <h2>"Her şey herkesleşiyordu. Herkes herşeyleşiyordu." (Ulus Baker)</h2>
-            <Image
-              src="/static/images/closeness.jpg"
-              alt="Closeness"
-              width={640}
-              height={360}
-              layout="responsive"
-              className="mx-auto"
-            />
-
-            <h2>
-              <p>Uzaklardaki bir yıldız gibiyim bazen</p>
-              <p>Parıltımı görmek için kısmak,</p>
-              <p>Sesimi duymak için susmak gerekir</p>
-            </h2>
           </div>
         </div>
       </div>
