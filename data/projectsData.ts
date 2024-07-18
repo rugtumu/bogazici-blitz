@@ -10,17 +10,17 @@ const projectsData = [
   },
 
   {
-    title: 'Bora Altun',
+    title: 'Sıtkı Mete Üçyiğitler',
     description: `Kaptan`,
-    imgSrc: '/static/images/takim-bora.jpg',
-    //href: 'takim/boraaltun',
+    imgSrc: '/static/images/takim-mete.jpg',
+    //href: '/blog/the-time-machine',
   },
 
   {
-    title: 'Sıtkı Mete Üçyiğitler',
+    title: 'Bora Altun',
     description: `İkinci Kaptan`,
-    imgSrc: '/static/images/takim-mete.jpg',
-    //href: '/blog/the-time-machine',
+    imgSrc: '/static/images/takim-bora.jpg',
+    //href: 'takim/boraaltun',
   },
 
   {
@@ -31,16 +31,23 @@ const projectsData = [
   },
 
   {
-    title: 'Umut Gür',
-    description: `Yönetim`,
-    imgSrc: '/static/images/takim-umut.jpg',
-    //href: '/blog/the-time-machine',
+    title: 'Süheyl Öztürk',
+    description: ``,
+    imgSrc: '/static/images/takim.jpg',
+    //href: '',
   },
 
   {
-    title: 'Hüseyin Dönmez',
-    description: `Yönetim`,
+    title: 'Sude Ezgi Abalı',
+    description: ``,
     imgSrc: '/static/images/takim.jpg',
+    //href: '',
+  },
+
+  {
+    title: 'Umut Gür',
+    description: ``,
+    imgSrc: '/static/images/takim-umut.jpg',
     //href: '/blog/the-time-machine',
   },
 
@@ -80,6 +87,13 @@ const projectsData = [
   },
 
   {
+    title: 'Hüseyin Dönmez',
+    description: ``,
+    imgSrc: '/static/images/takim.jpg',
+    //href: '/blog/the-time-machine',
+  },
+
+  {
     title: 'Sıla Tanrıverdioğlu',
     //description: ``,
     imgSrc: '/static/images/takim.jpg',
@@ -106,13 +120,6 @@ const projectsData = [
     imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
-    
-  {
-    title: 'Süheyl Öztürk',
-    description: ``,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '',
-  },
   
   {
     title: 'Ece Akın',
@@ -123,13 +130,6 @@ const projectsData = [
   
   {
     title: 'İrem Alp',
-    description: ``,
-    imgSrc: '/static/images/takim.jpg',
-    //href: '',
-  },
-
-  {
-    title: 'Sude Ezgi Abalı',
     description: ``,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
