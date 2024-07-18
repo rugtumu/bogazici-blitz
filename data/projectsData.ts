@@ -32,14 +32,14 @@ const projectsData = [
 
   {
     title: 'Süheyl Öztürk',
-    description: ``,
+    description: `Yönetim`,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
 
   {
     title: 'Sude Ezgi Abalı',
-    description: ``,
+    description: `Yönetim`,
     imgSrc: '/static/images/takim.jpg',
     //href: '',
   },
