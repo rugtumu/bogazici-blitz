@@ -18,7 +18,7 @@ const projectsData = [
 
   {
     title: 'Bora Altun',
-    description: `İkinci Kaptan`,
+    description: `Yardımcı Kaptan`,
     imgSrc: '/static/images/takim-bora.jpg',
     //href: 'takim/boraaltun',
   },
