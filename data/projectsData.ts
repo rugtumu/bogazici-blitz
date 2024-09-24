@@ -48,7 +48,7 @@ const projectsData = [
     title: 'Umut Gür',
     description: ``,
     imgSrc: '/static/images/takim-umut.jpg',
-    //href: '/blog/the-time-machine',
+    href: 'https://www.umutgur.com',
   },
 
   {
@@ -60,7 +60,7 @@ const projectsData = [
 
   {
     title: 'Atakan Çavuşoğlu',
-    //description: ``,
+    description: ``,
     imgSrc: '/static/images/takim-atakan.jpg',
     //href: '',
   },
