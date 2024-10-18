@@ -10,7 +10,7 @@ export default function NotFound() {
       </div>
       <div className="max-w-md">
         <p className="mb-4 text-xl font-bold leading-normal md:text-2xl">
-          Hiçliğin ortasına geldin dostum. Aradiginiz siteye su an ulasilamiyor. Lutfen daha sonra
+          Hiçliğin ortasına geldin dostum. Aradığınız siteye şu anda ulaşılamıyor. Lütfen daha sonra
           tekrar deneyiniz.
         </p>
       </div>

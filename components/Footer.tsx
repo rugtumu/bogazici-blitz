@@ -17,7 +17,13 @@ export default function Footer() {
         <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
           <div>{`© ${new Date().getFullYear()}`}</div>
           <div>{` • `}</div>
-          <div>{`Boğaziçi Blitz`} </div>
+          <Link href="https://www.instagram.com/bogazici.blitz/">
+            <div>{`Boğaziçi·Blitz`}</div>
+          </Link>
+          <div>{` • `}</div>
+          <Link href="https://www.instagram.com/bogazicibuz/">
+            <div>{`Boğaziçi Buz`}</div>
+          </Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400"></div>
       </div>
