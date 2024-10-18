@@ -18,7 +18,7 @@ export default function Footer() {
           <div>{`© ${new Date().getFullYear()}`}</div>
           <div>{` • `}</div>
           <Link href="https://www.instagram.com/bogazici.blitz/">
-            <div>{`Boğaziçi·Blitz`}</div>
+            <div>{`Boğaziçi Blitz`}</div>
           </Link>
           <div>{` • `}</div>
           <Link href="https://www.instagram.com/bogazicibuz/">
